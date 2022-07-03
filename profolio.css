@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,900&display=swap');
+
+
+* {
+    font-family: 'Times New Roman', Times, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(132, 17, 65)
+}
+
+nav {
+    background-color: rgb(228, 202, 206);
+    height: 60px;
+    width: auto;
+
+}
+
+nav a {
+    color: rgb(133, 11, 11);
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 800px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+div {
+    text-align: center;
+    border: solid rgba(219, 150, 150, 0.377);
+    width: 90%;
+    background-color: rgba(230, 173, 180, 0.158);
+    position: relative;
+    left: 50px;
+    border-radius: 3%;
+    box-shadow: 5px 10px #e28f8f;
+}
+
+#pet img {
+    height: 300px;
+    width: 300px;
+}
+
+#aboutme {
+    height: 500px;
+    top: 50px;
+    background-image: url("https://images.unsplash.com/photo-1604287094096-59a7dee979e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2232&q=80");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#pet {
+    top: 100px;
+
+}
+
+#contact {
+    top: 150px;
+
+}
+
+#contact h2 {
+    display: inline;
+    padding: 14px 16px;
+}
