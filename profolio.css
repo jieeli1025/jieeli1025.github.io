@@ -2,68 +2,128 @@
 
 
 * {
-    font-family: 'Times New Roman', Times, sans-serif;
+    font-family: "Nunito", sans-serif;
     margin: 0px;
     padding: 0px;
-    color: rgb(132, 17, 65)
+    background-color: rgb(228, 202, 206);
 }
 
-nav {
-    background-color: rgb(228, 202, 206);
-    height: 60px;
-    width: auto;
 
+nav {
+    position: sticky;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    text-shadow: 2px 2px 5px #b5838d;
+    z-index: 1;
+    padding-bottom: 2%;
 }
 
 nav a {
-    color: rgb(133, 11, 11);
+    color: #6d6875;
     text-align: center;
     position: relative;
-    top: 30px;
-    left: 800px;
-    padding: 14px 16px;
+    top: 40%;
+    left: 70%;
+    padding: 2px 12px;
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
 }
 
 
-div {
-    text-align: center;
-    border: solid rgba(219, 150, 150, 0.377);
-    width: 90%;
-    background-color: rgba(230, 173, 180, 0.158);
+#aboutmetext {
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
     position: relative;
-    left: 50px;
-    border-radius: 3%;
-    box-shadow: 5px 10px #e28f8f;
+    left: 5%;
+}
+
+#aboutme img {
+    position: relative;
+    left: 25%;
+    top: 60px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.8;
 }
 
 #pet img {
-    height: 300px;
-    width: 300px;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 5%;
+    opacity: 0.9;
 }
 
-#aboutme {
-    height: 500px;
-    top: 50px;
-    background-image: url("https://images.unsplash.com/photo-1604287094096-59a7dee979e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2232&q=80");
-    background-size: 100%;
-    background-repeat: no-repeat;
-
+#pettext {
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 25%;
 }
 
-#pet {
-    top: 100px;
+#hobby img {
+    position: relative;
+    left: 25%;
+    top: 60px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.8;
+}
 
+#hobbytext {
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 5%;
 }
 
 #contact {
-    top: 150px;
-
+    height: 200px;
+    position: relative;
+    border-top: solid darkgray;
+    padding-top:2%;
 }
 
-#contact h2 {
-    display: inline;
-    padding: 14px 16px;
+
+div{
+    display: inline-block;
+    position:relative;
+    left:15%;
+}
+
+#contact img{
+    position:relative;
+    left: 10%;
+    width: 90px;
+    height: 90px;
+    opacity:0.8;
+}
+
+
+
+h1{
+    font-size: 30px;
+    color:#b5838d;
+}
+
+h2{
+    color: #6d6875;
 }
